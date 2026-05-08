@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Fire Diamond Top Up</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#0f0f0f;
+color:white;
+}
+
+header{
+background:linear-gradient(90deg,#ff7b00,#ff0000);
+padding:20px;
+text-align:center;
+font-size:32px;
+font-weight:bold;
+}
+
+.banner{
+background:url('https://wallpapercave.com/wp/wp5128415.jpg') center/cover;
+height:250px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.banner h1{
+background:rgba(0,0,0,0.6);
+padding:15px 25px;
+border-radius:12px;
+}
+
+.container{
+padding:20px;
+max-width:1200px;
+margin:auto;
+}
+
+.uid-box{
+background:#1d1d1d;
+padding:20px;
+border-radius:12px;
+margin-bottom:30px;
+}
+
+.uid-box input{
+width:100%;
+padding:15px;
+border:none;
+border-radius:10px;
+font-size:18px;
+margin-top:10px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1d1d1d;
+padding:20px;
+border-radius:15px;
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 0 15px orange;
+}
+
+.card h2{
+color:orange;
+}
+
+.price{
+font-size:28px;
+margin:15px 0;
+}
+
+button{
+background:orange;
+color:black;
+border:none;
+padding:12px 20px;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+font-weight:bold;
+}
+
+button:hover{
+background:#ffb347;
+}
+
+.payment{
+margin-top:40px;
+background:#1d1d1d;
+padding:20px;
+border-radius:15px;
+}
+
+footer{
+margin-top:40px;
+text-align:center;
+padding:20px;
+background:#111;
+font-size:14px;
+color:#999;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+🔥 FREE FIRE TOP UP 🔥
+</header>
+
+<div class="banner">
+<h1>Fast & Secure Diamond Top Up</h1>
+</div>
+
+<div class="container">
+
+<div class="uid-box">
+<h2>Enter Free Fire UID</h2>
+<input type="text" id="uid" placeholder="Enter Your UID">
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h2>💎 25 Diamond</h2>
+<div class="price">৳30</div>
+<button onclick="buyNow('25 Diamond')">Buy Now</button>
+</div>
+
+<div class="card">
+<h2>💎 50 Diamond</h2>
+<div class="price">৳45</div>
+<button onclick="buyNow('50 Diamond')">Buy Now</button>
+</div>
+
+<div class="card">
+<h2>💎 115 Diamond</h2>
+<div class="price">৳85</div>
+<button onclick="buyNow('115 Diamond')">Buy Now</button>
+</div>
+
+<div class="card">
+<h2>💎 240 Diamond</h2>
+<div class="price">৳160</div>
+<button onclick="buyNow('240 Diamond')">Buy Now</button>
+</div>
+
+<div class="card">
+<h2>💎 Weekly Membership</h2>
+<div class="price">৳145</div>
+<button onclick="buyNow('Weekly Membership')">Buy Now</button>
+</div>
+
+<div class="card">
+<h2>💎 Monthly Membership</h2>
+<div class="price">৳720</div>
+<button onclick="buyNow('Monthly Membership')">Buy Now</button>
+</div>
+
+</div>
+
+<div class="payment">
+<h2>Payment Methods</h2>
+
+<p>✅ BKash: 01928203368</p>
+<p>✅ Nagad</p>
+<p>✅ Rocket</p>
+
+<br>
+<p>After payment contact on Telegram or Facebook.</p>
+</div>
+
+</div>
+
+<footer>
+© 2026 Free Fire Top Up BD | Demo Website
+</footer>
+
+<script>
+function buyNow(item){
+let uid = document.getElementById("uid").value;
+
+if(uid === ""){
+alert("Please enter your UID first!");
+return;
+}
+
+alert("Order: " + item + "\nUID: " + uid + "\nPayment system coming soon!");
+}
+</script>
+
+</body>
+</html>
